@@ -11,13 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64f6a876-1b45-4e97-a95d-cd60d5ffb603" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/readfile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/aaa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/quake.services.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/quake.Controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/quake.Controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/quake.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/quake.services.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data" />
       <recent name="$PROJECT_DIR$/src/services" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
@@ -69,7 +65,7 @@
       <workItem from="1594669091967" duration="155000" />
       <workItem from="1594669248811" duration="11124000" />
       <workItem from="1594684454743" duration="26000" />
-      <workItem from="1594684622863" duration="2670000" />
+      <workItem from="1594684622863" duration="3534000" />
     </task>
     <servers />
   </component>
