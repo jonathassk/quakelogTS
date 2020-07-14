@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="64f6a876-1b45-4e97-a95d-cd60d5ffb603" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/aaa.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/quake.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/quake.services.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
       <workItem from="1594669091967" duration="155000" />
       <workItem from="1594669248811" duration="11124000" />
       <workItem from="1594684454743" duration="26000" />
-      <workItem from="1594684622863" duration="3534000" />
+      <workItem from="1594684622863" duration="4011000" />
     </task>
     <servers />
   </component>
