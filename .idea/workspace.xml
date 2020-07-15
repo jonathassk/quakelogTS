@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64f6a876-1b45-4e97-a95d-cd60d5ffb603" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/helpers/transform-log-to-array.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/aaa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/quake.Controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/quake.Controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/quake.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/quake.services.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,8 @@
       <workItem from="1594669091967" duration="155000" />
       <workItem from="1594669248811" duration="11124000" />
       <workItem from="1594684454743" duration="26000" />
-      <workItem from="1594684622863" duration="4011000" />
+      <workItem from="1594684622863" duration="15098000" />
+      <workItem from="1594760948280" duration="6497000" />
     </task>
     <servers />
   </component>
@@ -94,9 +96,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="743" y="282" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1080/279.1080.1366.768@0.0.1920.1080" timestamp="1594669245305" />
-    <state x="783" y="445" width="343" height="159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594682341129">
+    <state x="783" y="445" width="343" height="159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594791988334">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="783" y="445" width="343" height="159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/279.1080.1366.768@0.0.1920.1080" timestamp="1594682341129" />
+    <state x="783" y="445" width="343" height="159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/279.1080.1366.768@0.0.1920.1080" timestamp="1594791988334" />
   </component>
 </project>
