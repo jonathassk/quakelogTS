@@ -3,33 +3,35 @@ class Game {
   players: Array<string>
   kills: object
 }
-
+let initGame: RegExp = /InitGame: /
+let infoChange: RegExp = /ClientUserinfoChanged: ([0-9]+) n\\(.*)\\t\\([0-9]+)/
+let kill: RegExp = /Kill: ([0-9]+) ([0-9]+)/
+let shutDown: RegExp = /ShutdownGame:/
+let userName: string = ''
+let userId: number = 0
 
 export class TransformLogToArray {
   static createObjectGame(data: Array<string>) {
     let game = new Game()
     data.map(action => {
-      if (action.match(/InitGame: /)) {
+      if (action.match(initGame)) {
         game.total_kills = 0
         game.players = []
         game.kills = {}
-        console.log('init', game)
       }
-      if (action.match(/ClientUserinfoChanged: ([0-9]+) n\\(.*)\\t\\([0-9]+)/)) {
-        let userName = action.match(/ClientUserinfoChanged: ([0-9]+) n\\(.*)\\t\\([0-9]+)/)[2]
-        let userId: number = parseInt(action.match(/ClientUserinfoChanged: ([0-9]+) n\\(.*)\\t\\([0-9]+)/)[1])
+      if (action.match(infoChange)) {
+        userName = action.match(infoChange)[2]
+        userId = parseInt(action.match(infoChange)[1])
         if (!game.players[userId - 2]) {
           game.players.push(userName)
         } else {
           game.players[userId - 2] = userName
         }
-      console.log('change', game)
       }
-      if (action.match(/Kill: ([0-9]+) ([0-9]+)/)){
+      if (action.match(kill)){
         game.total_kills++
-        //console.log(action.match(/Kill: ([0-9]+) ([0-9]+) ([0-9]+): ([\w.]+)/))
       }
-      if (action.match(/ShutdownGame:/)) {
+      if (action.match(shutDown)) {
         console.log('end', game)
       }
     })
