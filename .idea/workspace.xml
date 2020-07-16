@@ -11,8 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64f6a876-1b45-4e97-a95d-cd60d5ffb603" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Game.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/quake.repository.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/transform-log-to-array.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/transform-log-to-array.ts" afterDir="false" />
     </list>
@@ -69,7 +67,7 @@
       <workItem from="1594684454743" duration="26000" />
       <workItem from="1594684622863" duration="15098000" />
       <workItem from="1594760948280" duration="8481000" />
-      <workItem from="1594833883615" duration="15953000" />
+      <workItem from="1594833883615" duration="16205000" />
     </task>
     <servers />
   </component>

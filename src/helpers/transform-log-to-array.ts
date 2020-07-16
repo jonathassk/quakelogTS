@@ -5,6 +5,7 @@ class Game {
   players: Array<string>
   kills: object
 }
+
 let initGame: RegExp = /InitGame: /
 let infoChange: RegExp = /ClientUserinfoChanged: ([0-9]+) n\\(.*)\\t\\([0-9]+)/
 let kill: RegExp = /Kill: ([0-9]+) ([0-9]+) ([0-9]+): (.*) killed (.*) by (.*)/
@@ -33,7 +34,3 @@ export class TransformLogToArray {
     })
   }
 }
-
-
-//Object.assign
-//array.push
