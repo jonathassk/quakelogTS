@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64f6a876-1b45-4e97-a95d-cd60d5ffb603" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Game.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/quake.repository.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/transform-log-to-array.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/transform-log-to-array.ts" afterDir="false" />
     </list>
@@ -67,7 +69,7 @@
       <workItem from="1594684454743" duration="26000" />
       <workItem from="1594684622863" duration="15098000" />
       <workItem from="1594760948280" duration="8481000" />
-      <workItem from="1594833883615" duration="14726000" />
+      <workItem from="1594833883615" duration="15953000" />
     </task>
     <servers />
   </component>
@@ -87,10 +89,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="737" y="334" width="436" height="381" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594678611071">
+    <state x="737" y="334" width="445" height="381" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594865218098">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="737" y="334" width="436" height="381" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/279.1080.1366.768@0.0.1920.1080" timestamp="1594678611071" />
+    <state x="737" y="334" width="445" height="381" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/279.1080.1366.768@0.0.1920.1080" timestamp="1594865218098" />
     <state x="743" y="282" width="424" height="479" key="FileChooserDialogImpl" timestamp="1594669245305">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
