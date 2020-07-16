@@ -19,6 +19,7 @@ export class TransformLogToArray {
         game.players = []
         game.kills = {}
       }
+
       if (action.match(infoChange)) {
         userName = action.match(infoChange)[2]
         userId = parseInt(action.match(infoChange)[1])
@@ -27,12 +28,17 @@ export class TransformLogToArray {
         } else {
           game.players[userId - 2] = userName
         }
+        if (!game.kills[userName]) {
+          game.kills[userName] = 0
+          console.log(game)
+        }
       }
+
       if (action.match(kill)){
         game.total_kills++
       }
+
       if (action.match(shutDown)) {
-        console.log('end', game)
       }
     })
   }
