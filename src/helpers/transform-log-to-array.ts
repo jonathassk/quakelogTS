@@ -5,7 +5,7 @@ class Game {
 }
 let initGame: RegExp = /InitGame: /
 let infoChange: RegExp = /ClientUserinfoChanged: ([0-9]+) n\\(.*)\\t\\([0-9]+)/
-let kill: RegExp = /Kill: ([0-9]+) ([0-9]+)/
+let kill: RegExp = /Kill: ([0-9]+) ([0-9]+) ([0-9]+): (.*) killed (.*) by (.*)/
 let shutDown: RegExp = /ShutdownGame:/
 let userName: string = ''
 let userId: number = 0
@@ -30,15 +30,21 @@ export class TransformLogToArray {
         }
         if (!game.kills[userName]) {
           game.kills[userName] = 0
-          console.log(game)
         }
       }
 
       if (action.match(kill)){
         game.total_kills++
+        if (action.match(kill)[4] !== '<world>') {
+          game.kills[action.match(kill)[4]]++
+        }
+        if (action.match(kill)[4] === '<world>' && game.kills[action.match(kill)[5]] > 0) {
+          game.kills[action.match(kill)[5]]--
+        }
       }
 
       if (action.match(shutDown)) {
+
       }
     })
   }
