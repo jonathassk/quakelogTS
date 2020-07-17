@@ -10,7 +10,7 @@ class quakeController implements IControllerBase {
   }
 
   public initRoutes(): void {
-    this.router.get('/', (Request, Response) => CreateLogs.matchLog() )
+    this.router.get('/', (Request, Response) => CreateLogs.matchLog(Request, Response) )
   }
 }
 
